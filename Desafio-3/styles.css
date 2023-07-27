@@ -1,0 +1,436 @@
+body {
+  background: #0b0911;
+  color: white;
+}
+
+#description-frame {
+  margin: 107px 77px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.introducing {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-bottom: 32px;
+}
+
+.introducing h2 {
+  font-family: roboto;
+  font-size: 32px;
+}
+
+.introducing p {
+  text-align: left;
+  font-size: 19px;
+}
+
+#frame {
+  margin-top: 32px;
+  display: flex;
+  border: 4px solid #1c162c;
+  border-radius: 5px;
+  width: 877px;
+}
+
+button {
+  background: none;
+}
+
+p {
+  color: #ffffffb9;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.primaryButtons,
+.secondaryButtons,
+.tertiaryButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  text-transform: uppercase;
+}
+.typeButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  text-transform: uppercase;
+  background: #1c162c;
+  padding: 32px 10px;
+  display: flex;
+  flex-direction: colhumn;
+  height: 550px;
+}
+
+.typeButtons p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 28px;
+}
+.buttons {
+  display: flex;
+}
+
+button {
+  text-transform: uppercase;
+  color: white;
+}
+
+.primaryButtons p,
+.secondaryButtons p,
+.tertiaryButtons p {
+  background: #1c162c;
+  padding: 10px;
+  height: 64px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.primaryButtons p:nth-child(1) {
+  padding-left: 32px;
+}
+.secondaryButtons p:nth-child(1) {
+  padding-left: 32px;
+}
+.tertiaryButtons p:nth-child(1) {
+  padding-left: 32px;
+}
+
+/* Default primary */
+.primaryButtons button:nth-child(2) {
+  background: #8257e5;
+  border-radius: 24px;
+  padding: 12px 24px;
+  margin-left: 32px;
+}
+/* Hover primary */
+.primaryButtons button:nth-child(3) {
+  background: #9674e5;
+  padding: 12px 24px;
+  border-radius: 24px;
+  margin-left: 32px;
+}
+/* focus primary */
+.primaryButtons button:nth-child(4) {
+  background: #8257e5;
+  padding: 12px 24px;
+  border-radius: 24px;
+  border: 2px solid #d9cdf7;
+  margin-left: 32px;
+}
+/* disabled primary */
+.primaryButtons button:nth-child(5) {
+  background: #8257e5;
+  border-radius: 24px;
+  padding: 12px 24px;
+  opacity: 0.5;
+  margin-left: 32px;
+}
+/* loading primary */
+.primaryButtons button:nth-child(6) {
+  background: #8257e5;
+  border-radius: 24px;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-left: 32px;
+}
+/* loading primary img */
+.primaryButtons button:nth-child(6) > img {
+  background-image: url("./assets/frame-3\ 1.png"),
+    lightgray 50% / cover no-repeat;
+}
+/* movable primary */
+.primaryButtons button:nth-child(7) {
+  background: #8257e5;
+  padding: 12px 24px;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  white-space: nowrap;
+  margin-left: 32px;
+}
+
+/* default secondary */
+
+.secondaryButtons button:nth-child(2) {
+  background: #3c3748;
+  padding: 12px 24px;
+  border-radius: 24px;
+  white-space: nowrap;
+  margin-left: 32px;
+}
+
+/* hover secondary */
+.secondaryButtons button:nth-child(3) {
+  background: #6a617f;
+  border-radius: 24px;
+  padding: 12px 24px;
+  margin-left: 32px;
+}
+/* focus secondary */
+.secondaryButtons button:nth-child(4) {
+  background: #3c3748;
+  padding: 12px 24px;
+  border-radius: 24px;
+  white-space: nowrap;
+  border: 2px solid #d9cdf7;
+  margin-left: 32px;
+}
+/* disabled secondary */
+.secondaryButtons button:nth-child(5) {
+  background: #3c3748;
+  opacity: 0.5;
+  border-radius: 24px;
+  padding: 12px 24px;
+  white-space: nowrap;
+  margin-left: 32px;
+}
+/* loading secondary */
+.secondaryButtons button:nth-child(6) {
+  background: #3c3748;
+  border-radius: 24px;
+  padding: 12px 24px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-left: 32px;
+}
+/* movable secondary */
+.secondaryButtons button:nth-child(7) {
+  background: #3c3748;
+  border-radius: 24px;
+  padding: 12px 24px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-left: 32px;
+}
+/* default tertiary */
+.tertiaryButtons button:nth-child(2) {
+  display: flex;
+  padding: 12px 24px;
+  border-radius: 24px;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  background: none;
+  border: none;
+  margin-left: 32px;
+}
+/* Hover tertiary */
+.tertiaryButtons button:nth-child(3) {
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  border: none;
+  padding: 12px 24px;
+  margin-left: 32px;
+}
+
+/* focus tertiary */
+.tertiaryButtons button:nth-child(4) {
+  background: none;
+  border: 2px solid #d9cdf7;
+  border-radius: 24px;
+  padding: 12px 24px;
+  margin-left: 32px;
+}
+
+/* disabled tertiary */
+.tertiaryButtons button:nth-child(5) {
+  background: none;
+  border: none;
+  border-radius: 24px;
+  padding: 12px 24px;
+  white-space: nowrap;
+  opacity: 0.5;
+  margin-left: 32px;
+}
+/* loading tertiary */
+.tertiaryButtons button:nth-child(6) {
+  background: none;
+  border: none;
+  border-radius: 24px;
+  padding: 12px 24px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-left: 32px;
+}
+/* movable tertiary */
+.tertiaryButtons button:nth-child(7) {
+  background: none;
+  border: none;
+  border-radius: 24px;
+  padding: 12px 24px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-left: 32px;
+}
+
+.cursors {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  gap: 49px;
+}
+
+.cursors img {
+  max-width: 15px;
+}
+
+.cursors p {
+  background: #1c162c;
+  padding: 10px;
+  height: 64px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  /* padding-left: ; */
+}
+
+.cursors svg:nth-child(2) {
+  margin-left: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.cursors svg:nth-child(3) {
+  margin-left: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.cursors svg:nth-child(4) {
+  margin-left: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.cursors img:nth-child(5) {
+  margin-left: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.cursors svg:nth-child(6) {
+  margin-left: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.cursors svg:nth-child(7) {
+  margin-left: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.interact {
+  background: #130f1e;
+  padding: 107px 44px 44px 44px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.interact h2 {
+  margin-bottom: 8px;
+  color: #fff;
+  font-family: roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 32px */
+}
+
+.interact p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  opacity: 0.5;
+  text-align: left;
+}
+/* primary interact */
+.interact button:nth-child(3) {
+  padding: 24px 12px;
+  border-radius: 24px;
+  margin-top: 68px;
+  margin-bottom: 32px;
+  background: #8257e5;
+  cursor: url("./assets/cursor.svg"), auto;
+}
+
+.interact button:nth-child(3).disabled {
+  opacity: 0.5;
+  cursor: url("./assets/notallowed_100169\ \(1\)\ 1.svg"), auto;
+}
+
+.interact button:nth-child(3):hover {
+  background: #9674e5;
+}
+.interact button:nth-child(3):focus {
+  border: 2px solid #d9cdf7;
+}
+
+/* secondary interact */
+.interact button:nth-child(4) {
+  padding: 24px 12px;
+  background: #3c3748;
+  border-radius: 24px;
+  margin-bottom: 32px;
+  cursor: url("./assets/cursor.svg"), auto;
+}
+
+.interact button:nth-child(4):hover {
+  background: #6a617f;
+}
+
+.interact button:nth-child(4):focus {
+  border: 2px solid #d9cdf7;
+}
+
+.interact button:nth-child(4).disabled {
+  opacity: 0.5;
+  cursor: url("./assets/notallowed_100169\ \(1\)\ 1.svg"), auto;
+}
+
+/* tertiary interact */
+.interact button:nth-child(5) {
+  padding: 24px 12px;
+  border-radius: 24px;
+  cursor: url("./assets/cursor.svg"), auto;
+}
+
+.interact button:nth-child(5):focus {
+  border: 2px solid #d9cdf7;
+}
+
+.interact button:nth-child(5).disabled {
+  opacity: 0.5;
+  cursor: url("./assets/notallowed_100169\ \(1\)\ 1.svg"), auto;
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: url("./assets/notallowed_100169\ \(1\)\ 1.svg"), auto;
+}

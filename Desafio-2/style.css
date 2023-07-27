@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d9cdf7;
+}
+
+#card {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+  height: 97vh;
+}
+
+.cardImage {
+  max-width: 450px;
+  position: relative;
+}
+.icon {
+  position: absolute;
+  top: 10px;
+  right: 50px;
+}
+
+.cardInfo p {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  color: #271a45;
+  margin-bottom: 12px;
+}
+
+.cardInfo h2 {
+  font-family: "Crimson Pro", sans-serif;
+  font-weight: 600;
+  color: #271a45;
+  margin-bottom: 12px;
+}
+
+.cardInfo h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #271a45;
+  margin-bottom: 20px;
+}
+
+.button {
+  height: 32px;
+  border-radius: 999px;
+  padding: 8px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #271a45;
+  background-color: #d9cdf7;
+  border: 1px solid #271a45;
+  font-size: min(16px, 4vw);
+  word-wrap: break-word;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #cabaf1;
+}
+
+.button p {
+  color: #271a45;
+  text-align: center;
+  font-family: Lato;
+  font-size: min(16px, 4vw);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+  text-transform: uppercase;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 999px;
+  margin-left: 20px;
+  border: 1px solid black;
+  color: #271a45;
+}
+
+a:hover {
+  background-color: #cabaf1;
+}
+
+@media (max-width: 620px) {
+  .button p {
+    white-space: nowrap;
+  }
+}

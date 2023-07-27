@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(102, 102, 102);
+}
+
+#home {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  background-color: aliceblue;
+  /* From https://css.glass */
+  background: rgba(34, 34, 34, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.2px);
+  -webkit-backdrop-filter: blur(8.2px);
+  border: 1px solid rgba(34, 34, 34, 0.41);
+}
+
+section h3,
+p {
+  color: whitesmoke;
+}
+
+.welcome {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.desafio {
+  display: flex;
+  max-width: 200px;
+  max-height: 70px;
+  height: 100%;
+  width: 100%;
+
+  margin: 20px auto;
+  /* From https://css.glass */
+  background: rgba(34, 34, 34, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.2px);
+  -webkit-backdrop-filter: blur(8.2px);
+  border: 1px solid rgba(34, 34, 34, 0.41);
+}
+
+.desafio:hover {
+  background: rgba(109, 109, 109, 0.6);
+}
+
+.desafio a {
+  font-size: 20px;
+  text-decoration: none;
+  color: whitesmoke;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
